@@ -70,3 +70,13 @@ new_tokenizer = train_tokenizer(dataset)
 ```
 
 These examples demonstrate the tokenizer's role in text processing.
+
+## Best Practices for Tokenization
+
+- **Preprocess First**: Always preprocess text before tokenization for better quality.
+- **Handle Special Cases**: Account for language-specific features in Banso preprocessing.
+- **Update Vocabulary**: Retrain tokenizer on new data to improve performance.
+- **Balance Size**: Keep vocabulary size optimal for model efficiency.
+- **Test Encoding/Decoding**: Verify that encode/decode cycles preserve meaning.
+
+These practices ensure effective text tokenization.
