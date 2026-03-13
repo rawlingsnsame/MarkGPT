@@ -118,3 +118,13 @@ These examples show how utils support various project needs.
 - **Performance**: Optimize utilities for speed and memory usage.
 
 Following these practices will make utilities reliable and maintainable.
+
+## Troubleshooting
+
+- **Import Errors**: Check module paths and dependencies.
+- **Data Format Issues**: Validate input data structures.
+- **Performance Problems**: Profile utilities for slow functions.
+- **Integration Failures**: Ensure compatibility with other modules.
+- **Memory Leaks**: Monitor resource usage in long-running processes.
+
+Fixing these will enhance utility reliability.
