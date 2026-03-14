@@ -72,3 +72,15 @@ The revival came from a small team led by Geoffrey Hinton at the University of T
 The decisive moment was 2012. A neural network called AlexNet, trained on ImageNet (a massive dataset of labeled photographs), cut the image classification error rate almost in half compared to any previous method. The AI community took notice.
 
 Within a few years, deep neural networks were breaking records in image recognition, speech recognition, and eventually language. The ingredients were in place: better algorithms, massive datasets from the internet, and the GPU — a chip designed for rendering video games that turned out to be extraordinarily good at the matrix multiplications that neural networks require.
+
+---
+
+## 5. Language's Turn: From Word2Vec to BERT to GPT (2013–2019)
+
+For language specifically, the first major deep learning breakthrough came in 2013 with Word2Vec — a neural method for learning word representations (called *embeddings*) from text. The surprising discovery: words with similar meanings ended up close together in the embedding space. Mathematics could be done on meanings. *king − man + woman ≈ queen*.
+
+But word embeddings were static — the word "bank" had the same representation whether you were talking about a river bank or a financial institution. The next step was *contextual* embeddings: representations that change depending on surrounding words.
+
+In 2018, two landmark models appeared. First, **ELMo** (from AllenNLP) showed that deep bidirectional language models produce powerful contextual representations. Second, and more transformatively, Google released **BERT** — a model built on a new architecture called the *Transformer* — that achieved state-of-the-art performance on nearly every language benchmark in a single paper.
+
+At the same time, OpenAI released the first **GPT** (Generative Pre-trained Transformer). Where BERT was built for understanding, GPT was built for generation: given some text, predict what comes next. This would become the paradigm for MarkGPT.
