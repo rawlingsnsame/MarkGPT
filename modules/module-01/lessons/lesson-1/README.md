@@ -62,3 +62,13 @@ The key insight: rather than telling a machine what the rules are, show it thous
 The building blocks had been around since the 1950s, but two moments catalyzed the modern era. In 1986, David Rumelhart, Geoffrey Hinton, and Ronald Williams published the backpropagation algorithm — a method for efficiently training multi-layer neural networks. This was the key that had been missing.
 
 But even backpropagation wasn't enough at first. Networks were shallow and slow, data was limited, and computers weren't powerful enough. The 1990s were a "second winter" for neural networks — funding dried up, interest faded, and statistical methods like Support Vector Machines dominated.
+
+---
+
+## 4. The Deep Learning Revolution (2006–2015)
+
+The revival came from a small team led by Geoffrey Hinton at the University of Toronto, who in 2006 showed that deep networks (networks with many layers) could be pre-trained in a clever way before fine-tuning on specific tasks. Suddenly, deep was not just harder — it was *better*.
+
+The decisive moment was 2012. A neural network called AlexNet, trained on ImageNet (a massive dataset of labeled photographs), cut the image classification error rate almost in half compared to any previous method. The AI community took notice.
+
+Within a few years, deep neural networks were breaking records in image recognition, speech recognition, and eventually language. The ingredients were in place: better algorithms, massive datasets from the internet, and the GPU — a chip designed for rendering video games that turned out to be extraordinarily good at the matrix multiplications that neural networks require.
